@@ -37,8 +37,8 @@ jobs:
     - name: Clone downstream repo
       uses: actions/checkout@v2
       with:
-        repository: my-repo-base/my-profile
-        path: './my-profile'
+        repository: degenaro/pci-profile
+        path: './pci-profile'
         token: ${{ secrets.GIT_TOKEN }}
         fetch-depth: 0
     - name: Update profiles
